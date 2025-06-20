@@ -1,4 +1,4 @@
-Ride=str(input("Which type of transportation do you need?\n1.Bike \n2.Car:"))
+Ride=str(input("Which type of transportation do you need?\n1.Bike \n2.Car\nEnter your choice:"))
 if Ride=="Bike":
     print("What type of Vehicle you want")
     print("1.Scooty\n2.Motorbike")
