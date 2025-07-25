@@ -1,0 +1,13 @@
+import turtle 
+turtle.Screen().bgcolor("red")
+turtle.Screen().setup(500,500)
+triangle=turtle.Turtle()
+triangle.forward(100)
+triangle.left(120)
+triangle.forward(100)
+triangle.left(120)
+triangle.forward(100)
+triangle.penup()
+triangle.forward(200)
+triangle.pendown()
+turtle.done()
