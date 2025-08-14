@@ -5,4 +5,4 @@ try:
     else:
         print("It is an odd number.")
 except:
-    print("Invalid input . Try to input an number other thn 0.")
+    print("Invalid input . Try to input an number other than 0.")
