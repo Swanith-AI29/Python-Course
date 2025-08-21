@@ -1,0 +1,17 @@
+numbers=[1,2,3,4,5]
+print(numbers[1])
+print(numbers[3])
+print(numbers[-3])
+print(numbers)
+numbers=numbers*3
+print(numbers)
+numberlist=[100,200,300,400,500,600,700,800,900]
+print(numberlist[::-1])
+list1=[1,2,3]
+list2=[4,5,6]
+list3=list1+list2
+print(list3)
+list1.extend(list2)
+print(list1)
+randomlist=[1,5,"swanith",4.5,"nisha"]
+print(randomlist[4])
