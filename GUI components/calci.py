@@ -4,7 +4,7 @@ widget=Tk()
 widget.title("Calculator")
 widget.geometry("430x460")
 widget.configure(bg="black")
-headinglabel=Label(text="Calculator2000",height=4,width=20)
+headinglabel=Label(text="Calculator2000",height=5,width=15,font=("Courier",15))
 headinglabel.place(x=155,y=1)
 def oneclick():
     messagebox.showinfo("Alert","button 1 is pressed")
