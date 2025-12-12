@@ -2,52 +2,69 @@ from tkinter import*
 from tkinter import messagebox
 widget=Tk()
 widget.title("Calculator")
-widget.geometry("600x550")
+widget.geometry("430x460")
 widget.configure(bg="black")
 headinglabel=Label(text="Calculator2000",height=4,width=20)
-headinglabel.place(x=289,y=1)
+headinglabel.place(x=155,y=1)
 def oneclick():
     messagebox.showinfo("Alert","button 1 is pressed")
 a=Button(text="1",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=oneclick)
-a.place(x=1,y=1)
+a.place(x=1,y=120)
 def twoclick():
     messagebox.showinfo("Alert","button 2 is pressed")
 b=Button(text="2",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=twoclick)
-b.place(x=108,y=1)
+b.place(x=108,y=120)
 def threeclick():
     messagebox.showinfo("Alert","button 3 is pressed")
 c=Button(text="3",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=threeclick)
-c.place(x=215,y=1)
+c.place(x=215,y=120)
 def fourclick():
     messagebox.showinfo("Alert","button 4 is pressed")
 d=Button(text="4",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=fourclick)
-d.place(x=1,y=85)
+d.place(x=1,y=204)
 def fiveclick():
     messagebox.showinfo("Alert","button 5 is pressed")
 e=Button(text="5",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=fiveclick)
-e.place(x=108,y=85)
+e.place(x=108,y=204)
 def sixclick():
     messagebox.showinfo("Alert","button 6 is pressed")
-d=Button(text="6",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=sixclick)
-d.place(x=215,y=85)
-g=Button(text="7",fg="White",bg="grey",height=5,width=10)
-g.place(x=1,y=323)
-h=Button(text="8",fg="White",bg="grey",height=5,width=10)
-h.place(x=151,y=323)
-i=Button(text="9",fg="White",bg="grey",height=5,width=10)
-i.place(x=301,y=323)
-j=Button(text="0",fg="White",bg="grey",height=5,width=10)
-j.place(x=1,y=484)
-k=Button(text="=",fg="White",bg="grey",height=5,width=21)
-k.place(x=151,y=484)
-l=Button(text="/",fg="White",bg="grey",height=5,width=10)
-l.place(x=449,y=484)
-m=Button(text="*",fg="White",bg="grey",height=5,width=10)
-m.place(x=451,y=323)
-n=Button(text="-",fg="White",bg="grey",height=5,width=10)
-n.place(x=451,y=162)
+f=Button(text="6",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=sixclick)
+f.place(x=215,y=204)
+def sevenclick():
+    messagebox.showinfo("Alert","button 7 is pressed")
+g=Button(text="7",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=sevenclick)
+g.place(x=1,y=288)
+def eightclick():
+    messagebox.showinfo("Alert","button 8 is pressed")
+h=Button(text="8",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=eightclick)
+h.place(x=108,y=288)
+def nineclick():
+    messagebox.showinfo("Alert","button 9 is pressed")
+i=Button(text="9",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=nineclick)
+i.place(x=215,y=288)
+def zeroclick():
+    messagebox.showinfo("Alert","button 0 is pressed")
+j=Button(text="0",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=zeroclick)
+j.place(x=1,y=372)
+def equalclick():
+    messagebox.showinfo("Alert","button = is pressed")
+i=Button(text="=",fg="White",bg="grey",height=2,width=13,font=("Courier",20),command=equalclick)
+i.place(x=108,y=372)
+def barclick():
+    messagebox.showinfo("Alert","button / is pressed")
+l=Button(text="/",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=barclick)
+l.place(x=323,y=372)
+def starclick():
+    messagebox.showinfo("Alert","button * is pressed")
+m=Button(text="*",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=starclick)
+m.place(x=322,y=288)
+def minusclick():
+    messagebox.showinfo("Alert","button - is pressed")
+n=Button(text="-",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=minusclick)
+n.place(x=322,y=204)
 
-o=Button(text="+",fg="White",bg="grey",height=5,width=10)
-o.place(x=451,y=1)
+def plusclick():
+    messagebox.showinfo("Alert","button + is pressed")
+o=Button(text="+",fg="White",bg="grey",height=3,width=8,font=("Courier",15),command=plusclick)
+o.place(x=322,y=120)
 widget.mainloop()
-height=5,width
